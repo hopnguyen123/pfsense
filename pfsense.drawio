@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T12:58:37.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="V380Zc2bPp2EboGxynCk" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T13:00:21.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Z6FiA1Upvi5JkvpBQZhr" version="15.6.8" type="github">
   <diagram id="uYzDPYRhWdToXK-8ippb" name="Page-1">
-    <mxGraphModel dx="1221" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2966" dy="1540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,6 +185,18 @@
         </mxCell>
         <mxCell id="1KEqT4ddshyk3ydjl-4r-72" value="IT2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1KEqT4ddshyk3ydjl-4r-70">
           <mxGeometry x="20" y="90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KEqT4ddshyk3ydjl-4r-76" value="Pfsense Package" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;sketch=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="520" width="229" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1KEqT4ddshyk3ydjl-4r-77" value="SquidProxy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;fontSize=20;" vertex="1" parent="1KEqT4ddshyk3ydjl-4r-76">
+          <mxGeometry y="30" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KEqT4ddshyk3ydjl-4r-78" value="SquidGuard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;fontSize=20;" vertex="1" parent="1KEqT4ddshyk3ydjl-4r-76">
+          <mxGeometry y="60" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KEqT4ddshyk3ydjl-4r-79" value="OpenVpn" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;fontSize=20;" vertex="1" parent="1KEqT4ddshyk3ydjl-4r-76">
+          <mxGeometry y="90" width="229" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
